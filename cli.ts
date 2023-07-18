@@ -2,7 +2,7 @@ import { Command } from "./deps.ts";
 import sync from "./sync.ts";
 
 await new Command()
-  .name("tools")
+  .name("dev-tools")
   .version("1.0")
   .description("Common tools you need via cli! -Ash Hatz")
   .action((_options, ..._args) => {
